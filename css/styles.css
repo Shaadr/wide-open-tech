@@ -1,0 +1,285 @@
+
+.justify-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;s
+}
+
+.white-text {
+  color: #fff;
+}
+
+.grayback {
+  background: #F0F0F0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.margin-top-zero {
+  margin-top: 0;
+}
+
+.main-margin-bottom-small {
+    margin-bottom: 10px;
+}
+
+.main-margin-bottom-medium {
+    margin-bottom: 20px;
+}
+
+.main-margin-bottom-large {
+    margin-bottom: 40px;
+}
+
+.orange{
+  color: orange;
+}
+
+.green {
+  color: #BDD436;
+  font-weight: bold;
+}
+
+.large-font{
+  font-size: 36;
+}
+
+#smalltext {
+  font-size: 16px;
+}
+
+#mediumtext{
+  font-size: 23px;
+  margin: 30px auto;
+}
+
+.skinny-text {
+  : lighter;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
+  /*font-weight: 600;*/
+}
+p, a, li, button, small, span {
+  font-family: 'Open Sans', sans-serif;
+  /*font-weight: 400;*/
+}
+
+.masterheader-container {  /* contains top of page, header, and header-pic */
+  display: flex;
+  position: fixed;
+    width: 100%;
+    height: 10%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 15px 30px;
+    background-color: darkgray;
+}
+
+.main-header {
+  position: fixed;
+  background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-logo-whitex2.svg") no-repeat;
+}
+
+/*.logo-holder {
+    width: 75%;
+}*/
+
+.logo-holder img {
+  width: 50%;
+}
+
+.HAM{
+   color: #fff;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 51vh;
+  display: flex;
+}
+
+.spacer {
+  height: 10%;
+}
+
+.top-section {
+  width: 100%;
+  height: 51vh;
+  display: flex;
+  flex-direction: column;
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg")center no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.intro-text {
+  width: 100%;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 7px auto;
+  line-height: 33px;
+}
+
+/*.intro-text-bottom:before {
+    content: " ";
+    display: block;
+    background: #fff;
+    height: 9px;
+    width: 20%;
+    position: absolute;
+    left: -7%;
+    top: 15px;
+}
+
+.intro-text-bottom:after {
+    content: " ";
+    display: block;
+    background: #fff;
+    height: 9px;
+    width: 20%;
+    position: absolute;
+    right: -7%;
+    top: 15px;
+}*/
+
+.global-button {
+  width: 300px;
+  border-style: none;
+  border-radius: 20px;
+  background: #bdd436;
+  padding: 5px 0;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 20px auto;
+}
+
+.mid-section {
+  width: 100%;
+  height: 90vh;
+  margin: 5vh auto;
+
+}
+
+section p {
+  font-size: 24px;
+   font-family: "Open Sans";
+   color: #6A787C;
+   text-align: center;
+   line-height: 36px;
+   letter-spacing: 1px;
+   word-spacing: 2px;
+   padding: 8%;
+   margin-bottom: 15px;
+}
+
+.heres-how {
+  font-size: 36px;
+  padding: 5px;
+
+}
+
+.crossed-img {
+  height: 75px;
+  width: 75px;
+  background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+  background-position: -22px -113px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+/*.lightbulb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 131px;
+  height: 160px;
+  background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+  background-position: -311px -100px;
+  margin: 45px auto;
+  margin-bottom: 15px;
+}*/
+
+.para1{
+  font-size: 28px;
+  padding: 0 30px 0 30px;
+}
+
+.serv-div {
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  text-decoration: none;
+  color: lightgreen;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.mini-arrow {
+  height: 30px;
+  width:  37px;
+  background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+  background-position: -46px -292px;
+  margin: 20px auto;
+  /*margin-bottom: 30px;*/
+}
+
+.lightbulb{
+    height:160px;
+    width: 131px;
+    background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+    background-position: -311px -100px;
+}
+
+.arrow{
+    height:160px;
+    width: 74px;
+    background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+    background-position: -227px -91px;
+}
+
+.power{
+    height:160px;
+    width: 94px;
+    background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+    background-position: -119px -100px;
+}
+}
+
+.para2{
+  font-size: 28px;
+  padding: 0 30px 0 30px;
+}
+
+.our-company {
+  display: flex;
+  justify-content: center;
+}
+
+.company {
+  text-decoration: none;
+  color: lightgreen;
+  text-align: center;
+  margin-top: 15px;
+}
